@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Página de Donaciones</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="CSS.css">
+    <script src='javas.js'></script>
+</head>
+
+<body>
+    <header id="encabezado">
+        <section id="logo">
+            <img class="logo" src="img/logo_fundacion.png" width="155" alt="Logo">
+        </section>
+        <button class="abrir-menu" id="abrir"><i class="bi bi-list"></i></button>
+        <nav class="nav" id="navegacion">
+            <button class="cerrar-menu" id="cerrar"><i class="bi bi-x"></i></button>
+            <section id="chuchi">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="acerca.html">Acerca de Nosotros</a></li>
+                    <li><a href="programas.html">Nuestros Programas</a></li>
+                    <li><a href="ayudar.html">Cómo Ayudar</a></li>
+                    <li><a href="galeria.html">Galería de Fotos</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="eventos.html">Eventos</a></li>
+                    <li><a href="Contáctenos.html">Contáctenos</a></li>
+                    <li><a href="donaciones.html">Página de Donaciones</a></li>
+                    <li><a href="faq.html">Preguntas Frecuentes</a></li>
+                </ul>
+            </section>
+        </nav>
+    </header>
+
+    <main id="contenido">
+        <section id="donaciones">
+            <h2>Página de Donaciones</h2>
+            <p>En esta página podrás hacer una donación económica a nuestra organización, de forma segura y sencilla. Tu
+                aporte nos ayudará a seguir rescatando, cuidando y adoptando a los perros que lo necesitan. Gracias por
+                tu generosidad.</p>
+            <div id="imagenes-fondo">
+                <img src="img/donaciones1.PNG" alt="Imagen 1">
+            </div>
+            <form id="formulario" action="pagar.php" method="post">
+                <div class="campo">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" required>
+                </div>
+                <div class="campo">
+                    <label for="correo">Correo electrónico:</label>
+                    <input type="email" id="correo" name="correo" placeholder="Escribe tu correo electrónico" required>
+                </div>
+                <div class="campo">
+                    <label for="monto">Monto:</label>
+                    <input type="number" id="monto" name="monto"
+                        placeholder="Escribe el monto que deseas donar en lempiras" min="1" required>
+                </div>
+                <div class="campo">
+                    <label for="metodo">Método de pago:</label>
+                    <select id="metodo" name="metodo" required>
+                        <option value="">Selecciona un método de pago</option>
+                        <option value="tarjeta">Tarjeta de crédito o débito</option>
+                        <option value="paypal">PayPal</option>
+                        <option value="transferencia">Transferencia bancaria</option>
+                    </select>
+                </div>
+                <div class="campo">
+                    <button type="submit" id="donar" name="donar">Donar</button>
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <div class="arriba">
+            <div class="derecha">
+                <img src="img/logo_fundacion.png" width="100" alt="logo">
+            </div>
+            <div class="derechos">
+                <p> @2023 Huellas al Rescate. Todos los derechos reservados</p>
+            </div>
+            <div class="izquierda">
+                <h2>
+                    Siguenos
+                </h2>
+                <ul>
+                    <li> <a href="https://www.instagram.com/?hl=es"><img src="Img/Instagram-logo.png" width="50" alt="">
+                        </a></li>
+                    <li> <a href="https://www.facebook.com/"><img src="img//8efb55e9efc12eb11bedf41caa7f33bb.png"
+                                width="50" alt=""></a></li>
+                    <li> <a href="https://www.youtube.com/"> <img src="Img/YouTube_full-color_icon_(2017).svg.png"
+                                width="50" alt=""> </a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
