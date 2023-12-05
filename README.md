@@ -11,3 +11,5 @@ Pagina web sin fines de lucro para Donaciones a perros sin hogar.
 > Cuenta: MrSandovale
 #### 4. Elvin Raynel Hernandez Saravia 080120030880
 > Cuenta: elvinhray
+#### 5. Jose Francisco Amador Mejia 0801200313420
+> Cuenta: JrMejia0803
