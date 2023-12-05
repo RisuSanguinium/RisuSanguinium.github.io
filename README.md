@@ -13,3 +13,5 @@ Pagina web sin fines de lucro para Donaciones a perros sin hogar.
 > Cuenta: elvinhray
 #### 5. Jose Francisco Amador Mejia 0801200313420
 > Cuenta: JrMejia0803
+#### 6. Alexsandro Julián Quiñonez García 0801200222349
+> Cuenta: chuchiasdfghjkl
